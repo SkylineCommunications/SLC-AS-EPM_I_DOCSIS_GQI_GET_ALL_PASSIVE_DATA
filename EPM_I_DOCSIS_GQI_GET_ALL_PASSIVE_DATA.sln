@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{772B35DE-FEF1-4F76-A590-8E6E0A5513F0}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{08401F9A-4E9E-4A80-9517-7C238FED8B29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{A8FF0FE4-D892-45E4-9A09-61C5380AD9F3}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{6ECCBBEC-D418-4917-93B8-839992B634CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{36D9F186-4D50-4ED0-9D68-D8ADF8E08950}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{79FE4099-1005-4918-BC8F-0F916E059696}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{57BDC1B9-3337-462C-9C69-437F685C803E}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA", "EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA", "{85E2F852-FCFE-465E-A693-1AF0FD5B9978}"
+	ProjectSection(SolutionItems) = preProject
+		EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA.xml = EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{71787A5A-2A48-41A1-97F0-94652234D04C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA_1", "EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA_1\EPM_I_DOCSIS_GQI_GET_ALL_PASSIVE_DATA_1.csproj", "{9170C494-E2E4-4689-8DF8-D3EA7C6CF017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9170C494-E2E4-4689-8DF8-D3EA7C6CF017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9170C494-E2E4-4689-8DF8-D3EA7C6CF017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9170C494-E2E4-4689-8DF8-D3EA7C6CF017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9170C494-E2E4-4689-8DF8-D3EA7C6CF017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36D9F186-4D50-4ED0-9D68-D8ADF8E08950} = {6ECCBBEC-D418-4917-93B8-839992B634CD}
+		{57BDC1B9-3337-462C-9C69-437F685C803E} = {772B35DE-FEF1-4F76-A590-8E6E0A5513F0}
+		{85E2F852-FCFE-465E-A693-1AF0FD5B9978} = {08401F9A-4E9E-4A80-9517-7C238FED8B29}
+		{71787A5A-2A48-41A1-97F0-94652234D04C} = {85E2F852-FCFE-465E-A693-1AF0FD5B9978}
+		{9170C494-E2E4-4689-8DF8-D3EA7C6CF017} = {71787A5A-2A48-41A1-97F0-94652234D04C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF128542-F5A7-4989-A962-B550B60E16C2}
+	EndGlobalSection
+EndGlobal
